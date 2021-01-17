@@ -33,6 +33,11 @@
     </script>
 
     <script src="app.js" defer></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Faker/3.1.0/faker.min.js" 
+    integrity="sha512-/seDHxVfh1NvFUscAj8GsHQVZJvr2jjAoYsNL7As2FCaFHUHYIarl3sRCvVlFgyouVNiRgHIebyLKjpgd1SLDw==" 
+    crossorigin="anonymous"></script>
+
 </head>
 
 <body>
@@ -47,6 +52,16 @@
 
         <button id="signOutButton">Sign Out</button>
     </section>
+
+    <section>
+      <h2>My Firestore Things</h2>
+
+      <ul id="thingsList">
+      </ul>
+  
+      <button id="createThing" class="btn btn-success">Create Random Thing</button>
+    </section>
+    
 </body>
 
 </html>

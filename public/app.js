@@ -66,6 +66,8 @@ auth.onAuthStateChanged(user => {
     } else {
         // Unsubscribe when the user signs out
         unsubscribe && unsubscribe();
+
+        thingsList.innerHTML = '';
     }
 
 });
